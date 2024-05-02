@@ -4,12 +4,14 @@ import React from 'react';
 import { Navbar } from './components';
 import './App.scss';
 import { Header, About, Work, Skills, Testimonial, Footer } from "./container"
+import Profiles from './container/Profiles/Profiles';
 
 const App = () => (
   <div className="app">
     <Navbar />
     <Header />
     <About />
+    <Profiles />
     <Work />
     <Skills />
     <Footer />
